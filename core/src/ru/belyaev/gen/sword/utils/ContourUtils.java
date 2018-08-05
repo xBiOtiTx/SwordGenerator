@@ -23,15 +23,15 @@ public class ContourUtils {
         final int dy = y2 - y1;
         final float de = Math.abs((float) dy / (float) dx);
 
-        float e = 0;
-        int y = y1;
-        for (int x = x1, step = (int) Math.signum(x2 - x1); x <= x2; x += step) {
-            result.add(new Vector2(x, y));
-            e += de;
-            while (e >= 0.5) {
-
-            }
-        }
+//        float e = 0;
+//        int y = y1;
+//        for (int x = x1, step = (int) Math.signum(x2 - x1); x <= x2; x += step) {
+//            result.add(new Vector2(x, y));
+//            e += de;
+//            while (e >= 0.5) {
+//
+//            }
+//        }
 
 //        for x from x1 to x2 {
 //            y = y1 + dy * (x - x1) / dx

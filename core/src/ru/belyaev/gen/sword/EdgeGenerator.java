@@ -38,8 +38,8 @@ public class EdgeGenerator {
             PixmapUtils.drawLine(result, a, b);
             PixmapUtils.drawLine(result, e, d);
 
-            final List<Vector2> b_c1 = ContourUtils.toContour(b,c1.sub(10,0));
-            PixmapUtils.fillPoints(result, b_c1);
+//            final List<Vector2> b_c1 = ContourUtils.toContour(b,c1.sub(10,0));
+//            PixmapUtils.fillPoints(result, b_c1);
 
 //            final List<Vector2> contour = ContourUtils.fromPixmap(result, new Vector2(0, 0));
 //            final List<Vector2> outline = ContourUtils.outline(contour);
